@@ -27,7 +27,7 @@
     <a href="index.html" class="brand-logo"> <img class="nav__img" src="ico/webian.png" alt=""> </a>
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"> </a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="https://elblog.com/inicio/">Noticias</a></li>
+        <li><a href="https://elblog.com/inicio/" target="_blank"">Noticias</a></li>
       </ul>
       <ul class="right hide-on-med-and-down">
         <li><a href="propinas.html">Propinas</a></li>
@@ -40,9 +40,9 @@
       </ul>
       
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="index.html"><i class="fas fa-tags"></i> Descuentos</a></li>
-        <li><a href="propinas.html"><i class="fas fa-coins"></i> Propinas</a></li>
-        <li><a href="https://elblog.com/inicio/"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Noticias</a></li>
+        <li><a class="class="collection-item" href="index.html"><i class="fas fa-tags"></i> Descuentos</a></li>
+        <li><a class="class="collection-item" href="propinas.html"><i class="fas fa-coins"></i> Propinas</a></li>
+        <li><a class="class="collection-item" href="https://elblog.com/inicio/" target="_blank""><i class="fa fa-newspaper-o" aria-hidden="true"></i> Noticias</a></li>
       </ul>
       <a href="index.html" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       
@@ -84,7 +84,7 @@
                    <input class="inputDiscount" type="number" placeholder="%" id="descuento">
                   </div>
                   <!--fin input de descuento-->
-                  <button class="btn" type="button" onclick="resultado()">
+                  <button class="btn waves-effect waves-green" type="button" onclick="resultado()">
                    <i class="fas fa-calculator"></i> Calcular descuento
                   </button>
                   <p id="resultado">
