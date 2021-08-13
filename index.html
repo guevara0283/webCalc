@@ -27,20 +27,24 @@
     <a href="index.html" class="brand-logo"> <img class="nav__img" src="ico/webian.png" alt=""> </a>
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"> </a>
       <ul class="right hide-on-med-and-down">
+        <li><a href="https://elblog.com/inicio/">Noticias</a></li>
+      </ul>
+      <ul class="right hide-on-med-and-down">
         <li><a href="#">Propinas</a></li>
       </ul>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Descuentos</a></li>
+        <li><a href="index.html">Descuentos</a></li>
       </ul>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#"><i class="fas fa-home"></i></a></li>
+        <li><a href="index.html"><i class="fas fa-home"></i></a></li>
       </ul>
-
+      
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Descuentos</a></li>
-        <li><a href="#">Propinas</a></li>
+        <li><a href="index.html"><i class="fas fa-tags"></i> Descuentos</a></li>
+        <li><a href="#"><i class="fas fa-coins"></i> Propinas</a></li>
+        <li><a href="https://elblog.com/inicio/"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Noticias</a></li>
       </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <a href="index.html" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       
     </div>
   </nav>
@@ -53,7 +57,7 @@
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h2 class="header center orange-text">Calcula el precio con descuento <i class="fab fa-shopify"></i></h2>
+      <h3 class="header center orange-text"><i class="fab fa-shopify"></i> Calcula el precio con descuento </h3>
       
 
     </div>
@@ -68,16 +72,16 @@
                  <!--inicio input de precio-->
                  <div class="container">
        
-                  <label for="">Precio Articulo</label>
+                  <label for="">Precio artículo</label>
                   <div>
-                   <input class="inputPrice" type="number" placeholder="Precio ..." id="precio">
+                   <input class="inputPrice" type="number" placeholder="$" id="precio">
                   </div>
                   <!--fin input de precio-->
        
                   <!--inicio input de descuento-->
-                  <label class="label__descuento" for="">Descuento articulo</label>
+                  <label class="label__descuento" for="">Descuento artículo</label>
                   <div>
-                   <input class="inputDiscount" type="number" placeholder="Descuento ..." id="descuento">
+                   <input class="inputDiscount" type="number" placeholder="%" id="descuento">
                   </div>
                   <!--fin input de descuento-->
                   <button class="btn" type="button" onclick="resultado()">
@@ -101,45 +105,39 @@
     </div>
     <br><br>
   </div>
-  
-
   </body>
   <!-- END BODY -->
 
   <!-- BEGIN FOOTER -->
   <footer class="page-footer orange">
-    <div class="container">
+    <div class="center-align container">
       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
+        
+        <div class="col l3 s12">
+          <a href="https://wa.me/qr/QM33Z5455QFKK1"><h6 class="white-text"><i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp </h6></a>
+          
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
+          <a href="https://twitter.com/guevara0283"><h6 class="white-text"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter </h6></a>
+          
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
+          <a href="https://www.linkedin.com/in/luis-guevara-496246210/"><h6 class="white-text"><i class="fa fa-linkedin" aria-hidden="true"></i> linkedin</h6></a>
+                   
+        </div>
+        <div class="col l3 s12">
+          <a href="https://github.com/guevara0283"><h6 class="white-text"><i class="fa fa-github" aria-hidden="true"></i> github</h6></a>
+          
         </div>
       </div>
     </div>
+
+    
     <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
+      <div class="container center-left">
+      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Guevara</a>
+      <a  class="orange-text text-lighten-3 left-align" href="">© 2021 Copyright</a> 
+    </div>
     </div>
   </footer>
   <!-- END FOOTER -->
