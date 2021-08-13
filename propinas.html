@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Descuentos</title>
+  <title>Propinas</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -11,7 +11,7 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="estilos.css">
   <script src="https://kit.fontawesome.com/d16a39c67a.js" crossorigin="anonymous"></script>
-  <script src="descuentos.js"></script>
+  <script src="propinas.js"></script>
   <link rel="icon" type="image/png" href="ico/favicon.png" sizes="32x32">
 
   <!-- Compiled and minified CSS -->
@@ -39,9 +39,10 @@
         <li><a href="index.html"><i class="fas fa-home"></i></a></li>
       </ul>
       
+      
       <ul id="nav-mobile" class="sidenav">
         <li><a href="index.html"><i class="fas fa-tags"></i> Descuentos</a></li>
-        <li><a href="propinas.html"><i class="fas fa-coins"></i> Propinas</a></li>
+        <li><a href="#"><i class="fas fa-coins"></i> Propinas</a></li>
         <li><a href="https://elblog.com/inicio/"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Noticias</a></li>
       </ul>
       <a href="index.html" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -57,7 +58,7 @@
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h3 class="header center orange-text"><i class="fab fa-shopify"></i> Calcula el precio con descuento </h3>
+      <h3 class="header center orange-text"><i class="fas fa-coins"></i>  Calcula el precio con propina </h3>
       
 
     </div>
@@ -72,20 +73,20 @@
                  <!--inicio input de precio-->
                  <div class="container">
        
-                  <label for="">Precio artículo</label>
+                  <label for="">Cuenta total</label>
                   <div>
                    <input class="inputPrice" type="number" placeholder="$" id="precio">
                   </div>
                   <!--fin input de precio-->
        
                   <!--inicio input de descuento-->
-                  <label class="label__descuento" for="">Descuento artículo</label>
+                  <label class="label__descuento" for="">Propina</label>
                   <div>
                    <input class="inputDiscount" type="number" placeholder="%" id="descuento">
                   </div>
                   <!--fin input de descuento-->
                   <button class="btn" type="button" onclick="resultado()">
-                   <i class="fas fa-calculator"></i> Calcular descuento
+                   <i class="fas fa-calculator"></i> Calcular cuenta
                   </button>
                   <p id="resultado">
        
